@@ -1,4 +1,4 @@
-FROM ubuntu:16.10
+FROM ubuntu:16.04
 RUN \
     apt-get update --assume-yes && \
         apt-get install --assume-yes chromium-browser ubuntu-restricted-extras flashplugin-installer adobe-flashplugin && \
